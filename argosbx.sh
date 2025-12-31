@@ -1,4 +1,5 @@
 #!/bin/sh
+pgrep -f argosbx
 export LANG=en_US.UTF-8
 [ -z "${vlpt+x}" ] || vlp=yes
 [ -z "${vmpt+x}" ] || { vmp=yes; vmag=yes; }
